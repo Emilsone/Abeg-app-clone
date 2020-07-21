@@ -9,9 +9,9 @@
           <img alt="Vue logo" src="@/assets/iphone.png" class="image" />
         </div>
         <div class="footer-icons">
-          <span><i class="fa fa-facebook" aria-hidden="true"></i></span>
-          <span><i class="fa fa-twitter" aria-hidden="true"></i></span>
-          <span><i class="fa fa-instagram" aria-hidden="true"></i></span>
+           <img alt="Vue logo" src="@/assets/facebook.svg" id="image" />
+           <img alt="Vue logo" src="@/assets/instagram.svg" id="image" />
+           <img alt="Vue logo" src="@/assets/twitter.svg" id="image" />
         </div>
       </div>
     </footer>
@@ -25,7 +25,9 @@ export default {
 <style scoped>
 .image {
   width: 30%;
-  max-width: 80%;
+  max-width: 100%;
+  margin: auto;
+  display: block;
 }
 .container{
   display: flex;
@@ -33,10 +35,11 @@ export default {
   align-items: center;
   flex-wrap: wrap;
 }
-.fa-facebook,.fa-twitter, .fa-instagram{
-  padding-right: 2em;
-  background-color:#8a5cf7;
-  width: 50px;
-
+#image{
+  padding-right: 1.2em;
+  width: 30%;
+}
+p{
+  padding-left: 20px;
 }
 </style>

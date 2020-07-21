@@ -1,6 +1,9 @@
 <template>
   <section>
     <section class="banner-section">
+      <div class="logo">
+            <img alt="Vue logo" src="@/assets/abeg.svg" id="logo" />
+      </div>
       <div class="text">
         <h1>Make Someone<br> Happy With Cash</h1>
         <p>
@@ -42,7 +45,7 @@ h1 {
   font-weight: 900;
 }
 .text {
-  padding-top: 15%;
+  padding-top: 10%;
 }
 .button {
     position: relative;
@@ -60,24 +63,30 @@ h1 {
     padding: 0 22px;
 }
 #input{
-    border: transparent;
-    border-radius: 8px;
-    font-size: 16px;
-    height: 64px;
-    padding: 0 22px;
-    min-width: 272px;
-    background-color: #fff;
-    font-family: Asap;
-    font-weight: 500;
-    box-sizing: border-box;
+  border: transparent;
+  border-radius: 8px;
+  font-size: 16px;
+  height: 64px;
+  padding: 0 22px;
+  min-width: 272px;
+  background-color: #fff;
+  font-family: Asap;
+  font-weight: 500;
+  box-sizing: border-box;
 }
 #button{
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+  flex-wrap: wrap;
 }
 .butt, .input{
   margin-right: 16px;
+}
+#logo{
+  width: fit-content;
+  margin:auto;
+  display: block;
 }
 </style>
