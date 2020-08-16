@@ -89,4 +89,10 @@ h1 {
   margin:auto;
   display: block;
 }
+@media (max-width: 768px) {
+
+  p {
+    font-size: 15px;
+  }
+}
 </style>

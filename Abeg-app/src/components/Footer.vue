@@ -42,4 +42,5 @@ export default {
 p{
   padding-left: 20px;
 }
+
 </style>

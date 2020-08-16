@@ -20,10 +20,9 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; 
+ font-family: 'Poppins', sans-serif;
   background-color: #753ff6;
   color:#F8F5FF;
 }
